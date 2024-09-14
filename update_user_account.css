@@ -1,0 +1,111 @@
+/* Body Styling */
+body {
+  background-color: #e9ecef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Container Styling */
+.container {
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Profile Image Styling */
+.profile-img {
+  text-align: center;
+  margin-top: -60px;
+}
+
+.profile-img img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #0c759e;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Info Styling */
+.profile-info h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c759e;
+  margin-bottom: 15px;
+}
+
+.profile-info .label {
+  color: #495057;
+  font-weight: 600;
+}
+
+/* Input Fields Styling */
+.form-control {
+  border: 1px solid #0c759e;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+/* Button Styling */
+.profile-button {
+  background-color: #0c759e;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #007bff;
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.4);
+}
+
+/* Main Heading Styling */
+h4.text-right {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #0c759e;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Margin and Padding Adjustments */
+.mt-3 {
+  margin-top: 20px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
+}
+
+/* General Styling */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

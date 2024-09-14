@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us</title>
+    <link rel="stylesheet" href="Contact.css" />
+    <!--google fonts link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--javascipt code for footer-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--sticky icon link-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Sticky Icon-->
+    <div class="sticky-icon">
+      <a href="https://www.instagram.com/?hl=en" class="Instagram">
+        Instagram <i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.facebook.com/" class="Facebook">
+        Facebook <i class="fab fa-facebook-f"> </i>
+      </a>
+      <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google">
+        Google + <i class="fab fa-google-plus-g"> </i
+      ></a>
+      <a href="https://www.youtube.com/" class="Youtube">
+        Youtube <i class="fab fa-youtube"></i
+      ></a>
+      <a href="https://twitter.com/login" class="Twitter">
+        Twitter <i class="fab fa-twitter"> </i>
+      </a>
+    </div>
+    <h1 class="about">Contact Us.</h1>
+    <h3 class="sub_main">Answers to common questions about how to reach us</h3>
+
+    <hr style="height: 0.01px" ; color="black" />
+
+    <!--image section-->
+    <div class="main-card1">
+      <div class="sub-card1" style="width: 30rem">
+        <img src="photoes/laptop24.webp" class="card-img-top1" alt="laptop" />
+      </div>
+    </div>
+    <!--paragraph1-->
+    <div class="paragraph1">
+      <p>
+        Welcome to LapTopia, your ultimate destination for all things laptops.
+        Our website is dedicated to providing comprehensive, unbiased, and
+        up-to-date information on laptops. We offer expert reviews, detailed
+        comparisons, and tailored buying guides to help you make informed
+        decisions. Our mission is to empower you with the latest tech news,
+        practical advice, and in-depth analyses. Whether you're a student,
+        professional, gamer, or casual user, LapTopia is here to ensure you find
+        the perfect laptop to meet your needs and enhance your tech
+        experience.<br />
+        At LapTopia, we pride ourselves on maintaining the highest standards of
+        integrity and transparency. Our expert team conducts thorough testing
+        and evaluation of the latest laptop models, covering a wide range of
+        brands and specifications to suit every need and budget. We also provide
+        insightful articles on optimizing performance, enhancing productivity,
+        and staying updated with technological advancements.<br />
+        Join our vibrant community of tech enthusiasts, share your experiences,
+        and engage in discussions. LapTopia is not just a resource; it's a hub
+        for all your laptop-related inquiries and needs. Trust us to be your
+        guide in navigating the ever-evolving landscape of laptop technology.
+      </p>
+    </div>
+    <!--staff hedding -->
+    <h1 class="staff">Meet Our Staff :</h1>
+    <p class="staff_paragraph">
+      LapTopia provides comprehensive hands-on, labs-based testing of hardware,
+      software, consumer electronics, and mobile products. Check out our
+      Masthead to learn about who we are, what we do, and whom to contact about
+      evaluating your product. Or You can or email us at
+      <strong>Reviews@LapTopia.com.</strong>
+    </p>
+    <hr />
+    <!--Subscriptions area-->
+    <h1 class="Subscriptions">LapTopia Digital Subscriptions :</h1>
+    <p class="Subscriptions_paragraph">
+      As of December 2024, the digital edition of LapTopia Magazine has been
+      discontinued. For inquiries regarding your subscription, email
+      <strong>LapTopiadigital@emailcustomerservice.com</strong> OR call
+      <strong>1-800-289-0429</strong>.
+    </p>
+    <!--mailing address-->
+    <h1 class="mail">Registered Office :</h1>
+    <address class="mail_address">
+      LapTopia 114 Fifth Avenue,<br />
+      H.NO. B-23 F/F BLOCK-B, SECTOR-12,<br />
+      5th Floor Techno Park kerala india,<br />
+      NY 10011
+    </address>
+    <!--form-->
+    <h1 class="form_hedding">
+      Need to reach us for <u>reporting complaints</u> ? No problem. Just fill
+      out the form below and we'll make sure your message reaches the right
+      person.
+    </h1>
+    <!--enquary form -->
+    <div class="enquary">
+      <br />
+      <img
+        style="margin-left: 45%"
+        src="photoes/subscribe_icon.png"
+        width="100px"
+      />
+      <br />
+      <br />
+      <form id="contactForm" action="Contact.php" method="post">
+        <label for="fname">Full Name :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your full name.."
+          required
+        />
+        <label for="email">Email : </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="abcd@gmail.com"
+          required
+        />
+        <label for="phone">whatsapp number : </label>
+        <input
+          type="phone"
+          id="phone"
+          name="phone"
+          placeholder="+91 999999999"
+          required
+        />
+        <label for="Feedback">Ask something :</label>
+        <textarea
+          id="feedback"
+          name="feedback"
+          placeholder="Write something.."
+          style="height: 200px"
+          required
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!--footer-->
+    <div class="down-footer">
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="https://www.facebook.com/"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="https://twitter.com/?lang=en-in"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="https://in.linkedin.com/"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="https://www.instagram.com/?hl=en"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="home.html">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="home.html">Laptops</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Cart.html">Cart Section</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="News.php">News</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Review.php">Review</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Services.html">Services</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="About.html">About us</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <p>&copy;2024 LapTopia | All Rights Reserved</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

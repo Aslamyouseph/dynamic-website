@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LapTopia</title>
+    <link rel="stylesheet" href="home.css" />
+    <!--sticky icon link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--sticky whatsapp link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- GSAP (TweenMax) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!--google fonts link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--javascipt code for footer-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!--naigation bar -->
+    <div class="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="home.html"
+            ><big><b>Home</b></big></a
+          >
+        </li>
+        <li class="dropdown">
+          <a href="Laptops.html"
+            ><big><b>Laptops</b></big></a
+          >
+          <div class="dropdown-content">
+            <a href="GamingLaptops.php" >Gaming Laptops</a>
+            <a href="BudgetLaptops.php" >Budget Laptops</a>
+            <a href="BusinessLaptops.php" >Business Laptops</a>
+            <a href="StudentLaptops.php" >Student Laptops</a>
+            <a href="Who_need_tablets.php" >Who need tablets</a>
+            <a href="two_in_one.php" >2 in one</a>
+          </div>
+        </li>
+        <li>
+          <a href="Cart.html" 
+            ><big><b>Cart Section</b></big></a
+          >
+        </li>
+        <li>
+          <a href="News.php" 
+            ><big><b>News</b></big></a
+          >
+        </li>
+        <li>
+          <a href="Review.php" 
+            ><big><b>Review</b></big></a
+          >
+        </li>
+        <li>
+          <a href="Services.html" 
+            ><big><b>Services</b></big></a
+          >
+        </li>
+        <li>
+          <a href="About.html" 
+            ><big><b>About us</b></big></a
+          >
+        </li>
+        <li>
+          <a href="Contact.html" 
+            ><big><b>Contact Us</b></big></a
+          >
+        </li>
+      </ul>
+    </div>
+    <!--search bar-->
+    <div class="search-bar">
+      <input
+        id="search"
+        type="search"
+        placeholder="&#x1F50D; Start typing to search..."
+        autocomplete="off"
+      />
+      <div id="search-results" class="search-results"></div>
+      <a href="user_account.php"><button class="btn1"><b>Account</b></button></a>
+      <a href="logout.php"><button class="btn1"><b>Logout</b></button></a>
+    </div>
+    
+    <!--mani hedding -->
+    <h1 class="head1">
+      Experience the Best in
+      <span style="color: rgb(183, 54, 29)">Laptop Technology.</span>
+    </h1>
+    <!-- Sticky Icon-->
+    <div class="sticky-icon">
+      <a href="https://www.instagram.com/?hl=en" class="Instagram">  Instagram <i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/" class="Facebook"> Facebook <i class="fab fa-facebook-f"> </i> </a>
+      <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google"> Google + <i class="fab fa-google-plus-g"> </i></a>
+      <a href="https://www.youtube.com/" class="Youtube"> Youtube <i class="fab fa-youtube"></i></a>
+      <a href="https://twitter.com/login" class="Twitter"> Twitter <i class="fab fa-twitter"> </i> </a>
+    </div>
+    <!--sticky whatsapp icone(can able to chat with me )-->
+    <a href="https://api.whatsapp.com/send?phone=9605951488" class="float" >
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+    <!--image slider setup-->
+    <div class="container">
+      <div class="slide">
+        <div
+          class="item"
+          style="background-image: url(photoes/laptop9.jpeg)"
+        ></div>
+        <div
+          class="item"
+          style="background-image: url(photoes/laptop13.webp)"
+        ></div>
+        <div
+          class="item"
+          style="background-image: url(photoes/laptop15.jpg)"
+        ></div>
+        <div
+          class="item"
+          style="background-image: url(photoes/laptop17.jpg)"
+        ></div>
+        <div
+          class="item"
+          style="background-image: url(photoes/laptop19.jpeg)"
+        ></div>
+        <div
+          class="item"
+          style="background-image: url(photoes/laptop15.jpg)"
+        ></div>
+      </div>
+      <div class="button1">
+        <button class="prev">←</button>
+        <button class="next">→</i></button>
+      </div>
+    </div>
+    <!--second headding-->
+    <h1 class="head2">
+      Upgrade Your Tech: Shop Laptops with
+      <span style="color: rgb(183, 54, 29)">LapTopia</span>
+    </h1>
+    <!--main paragraph-->
+    <div class="p1">
+      <p><b>
+        Laptops have become indispensable tools across various fields due to
+        their portability, versatility, and powerful capabilities. In education,
+        they provide students with access to a vast array of online resources,
+        educational software, and virtual classrooms, while teachers use them to
+        create interactive lessons and communicate with students and parents. In
+        business, laptops support mobility for professionals and entrepreneurs,
+        allowing work from anywhere and efficient management of operations,
+        finances, and communications. Creative professionals, such as designers,
+        artists, writers, and musicians, rely on laptops for tasks like graphic
+        design, video editing, composing music, and editing audio. For gamers
+        and developers, high-performance gaming laptops offer immersive
+        experiences and development platforms. On a personal level, laptops
+        facilitate communication through emails, social media, and video calls,
+        and serve as versatile devices for entertainment, including streaming
+        movies and browsing the internet. In research and development,
+        scientists and engineers use laptops for complex simulations, data
+        analysis, and innovation. Overall, laptops enhance productivity,
+        creativity, and connectivity, making them essential in today's digital
+        age.
+      </p></b>
+    </div>
+    <!--third headding-->
+    <h1 class="head3">Discover the Best Laptops for your Need with <span style="color: rgb(183, 54, 29)"> LapTopia</span></h1>
+    <!--image carde1-->
+    <div class="main-card1">
+      <div class="sub-card1" style="width: 30rem">
+        <a href="GamingLaptops.php" ><img
+          src="photoes/laptop26.webp"
+          class="card-img-top1"
+          alt="laptop"
+        /></a>
+        <h3 style="color: rgb(19, 12, 212); font-size: 25px; left: 5px;"><b>Game On! Best Gaming Laptops for You</b></h3>
+      </div>
+    </div>
+    <!--image carde2-->
+    <div class="main-card2">
+      <div class="sub-card2" style="width: 30rem">
+        <a href="BudgetLaptops.php" ><img
+          src="photoes/laptop34.webp"
+          class="card-img-top2"
+          alt="laptop"
+        /></a>
+        <h3 style="color: rgb(19, 12, 212); font-size: 25px; left: 5px;"><b>Budget laptops! The Best Cheap Laptops</b></h3>
+      </div>
+    </div>
+    <!--image carde3-->
+    <div class="main-card3">
+      <div class="sub-card3" style="width: 30rem">
+        <a href="BusinessLaptops.php" ><img
+          src="photoes/laptop31.webp"
+          class="card-img-top3"
+          alt="laptop"
+        /></a>
+        <h3 style="color: rgb(19, 12, 212); font-size: 25px; left: 5px;"><b>Best Affordable Business Laptops for You </b></h3>
+      </div>
+    </div>
+    <!--image carde4-->
+    <div class="main-card4">
+      <div class="sub-card4" style="width: 30rem">
+        <a href="StudentLaptops.php" ><img
+          src="photoes/laptop46.webp"
+          class="card-img-top4"
+          alt="laptop"
+        /></a>
+        <h3 style="color: rgb(19, 12, 212); font-size: 25px; left: 5px;"><b>Here The Best Laptops for college student  </b></h3>
+     </div>
+    </div>
+    <!--image carde5-->
+    <div class="main-card5">
+      <div class="sub-card5" style="width: 30rem">
+        <a href="Who_need_tablets.php" ><img
+          src="photoes/laptop24.webp"
+          class="card-img-top5"
+          alt="laptop"
+        /></a>
+        <h3 style="color: rgb(19, 12, 212); font-size: 25px; left: 5px;"><b>Who Need a Tablet? Best Tablet For You </b></h3>
+     </div>
+    </div>
+    <!--image carde6-->
+    <div class="main-card6">
+      <div class="sub-card6" style="width: 30rem">
+        <a href="two_in_one.php" ><img
+          src="photoes/laptop28.webp"
+          class="card-img-top6"
+          alt="laptop"
+        /></a>
+        <h3 style="color: rgb(19, 12, 212); font-size: 25px; left: 5px;"><b>How To Shop The Right 2_in_1 Laptops</b></h3>
+     </div>
+    </div>
+    <!--hedding 4-->
+    <div class="head4">
+      <h1>Latest Laptop Top Picks :</h1>
+    </div>
+    <!--top laptopes (scrollling section)-->
+    <div class="cover">
+      <button class="left" onclick="leftScroll()">←</button>
+      <div class="scroll-images" id="scroll-images">
+        <div class="child">
+          <a href="laptop1.html">
+            <img class="child-img" src="photoes/laptop45.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop2.html">
+            <img class="child-img" src="photoes/laptop29.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop3.html">
+            <img class="child-img" src="photoes/laptop36.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop4.html">
+            <img class="child-img" src="photoes/laptop37.jpg" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop5.html">
+            <img class="child-img" src="photoes/laptop40.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop6.html">
+            <img class="child-img" src="photoes/laptop41.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop7.html">
+            <img class="child-img" src="photoes/laptop42.jpg" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop1.html">
+            <img class="child-img" src="photoes/laptop50.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop2.html">
+            <img class="child-img" src="photoes/laptop28.webp" alt="laptop_image" />
+          </a>
+        </div>
+        <div class="child">
+          <a href="laptop3.html">
+            <img class="child-img" src="photoes/laptop32.webp" alt="laptop_image" />
+          </a>
+        </div>
+      </div>
+      <button class="right" onclick="rightScroll()">→</button>
+    </div>
+    
+    <!--hedding 5-->
+    <div class="head5">
+      <h1>Latest News And Updates :</h1>
+    </div>
+    <!--latest news (scrolling section)-->
+    <div class="cover1">
+      <button class="left1" onclick="leftScroll1()">←</button>
+      <div class="scroll-images1">
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/nasa-uses-space-lasers-to-communicate-with-the-iss">
+            <img class="child-img1" src="photoes/news1.jpg" alt="satlite_image" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/isps-claim-us-governments-plan-of-30-internet-is-unrealistic?_gl=1*2lramf*_up*MQ..*_ga*ODgyODc0MjIuMTcyMjE0NTQ2Nw..*_ga_2Y85WP1X8R*MTcyMjE0NTQ2Ny4xLjAuMTcyMjE0NTQ2Ny4wLjAuMA..">
+            <img class="child-img1" src="photoes/news2.jpg" alt="internet" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/apple-agrees-to-historic-first-union-contract-with-us-retail-employees?_gl=1*1cmoecg*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news3.jpg" alt="Apple_mobiles" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/tiktok-reportedly-collected-american-users-opinions-on-gun-control-abortion?_gl=1*1k9wvyy*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news.4.webp" alt="TikTok_photo" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/tesla-finally-warns-ev-owners-not-to-attempt-the-wet-towel-charging-trick?_gl=1*1wtk0v4*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news_5.webp" alt="Tesla_photoes" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/xs-grok-ai-is-once-again-pushing-election-misinformation?_gl=1*17rg2dw*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news6.jpg" alt="x's grok Ai" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/intel-hints-13th-14th-gen-desktop-chip-bug-results-in-permanent-damage?_gl=1*1j23sqf*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news13.webp" alt="processor
+            -chip" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/russia-to-throttle-youtube-speeds-by-up-to-70?_gl=1*12z7evr*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news8.webp" alt="youtub_photo" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/microsoft-looks-to-revamp-windows-access-after-crowdstrike-outage?_gl=1*1ak5qeo*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news9.webp" alt="windos_image" />
+          </a>
+        </div>
+        <div class="child1">
+          <a href="https://www.pcmag.com/news/sonos-ceo-apologizes-for-significant-problems-with-app-update-promises?_gl=1*1df3xa8*_up*MQ..*_ga*MTcyMzYwNDM0NS4xNzIyMTQ1NzIx*_ga_2Y85WP1X8R*MTcyMjE0NTcyMS4xLjAuMTcyMjE0NTcyMS4wLjAuMA..">
+            <img class="child-img1" src="photoes/news10.png" alt="Sonos_image" />
+          </a>
+        </div>
+      </div>
+      <button class="right1" onclick="rightScroll1()">→</button>
+    </div>
+     <!--hedding 6-->
+    <h1 class="head6">Popular Laptop Brands:</h1>
+    <!--popular brands button-->
+    <div class="buttons">
+      <a class="button" href="https://www.acer.com/in-en/">Acer</a>
+      <a class="button" href="https://www.dell.com/en-in/gaming/alienware?msockid=11fb50993a826b96385b445f3bdc6a23">Alienware</a>
+      <a class="button" href="https://www.apple.com/in/ipad-pro/">Apple</a>
+      <a class="button" href="https://www.asus.com/us/content/nuc-overview/?utm_source=gads&utm_medium=sem&utm_campaign=2024Q2-MiniPC-NUC14Pro&msclkid=9fba0183a6151c7a0245672986b77d87&utm_term=gaming%20mini%20pc&utm_content=US%20%7C%202024%20Q2%20%7C%20Mini%20PC%7C%20NUC%20%7C%20SEM">Asus</a>
+      <a class="button" href="https://www.dell.com/en-in?msockid=11fb50993a826b96385b445f3bdc6a23">Dell</a>
+      <a class="button" href="https://www.hp.com/in-en/shop/?optly_qa_cookie=optly_hp_test&gclid=SEM&gclsrc=3p.ds&msclkid=e51dfcb45c4d1ebe79439a1e7d0b9088&utm_source=bing&utm_medium=cpc&utm_campaign=IN%20-%20HPCOM%7CHPStore%7CHHO%7CHome%26HomeOffice%7CIN%7CBrand%7CExact%7CEN%7C%20(Always-On)&utm_term=h%20h%20p&utm_content=Generic%20EM">HP</a>
+      <a class="button" href="https://www.lenovo.com/in/en/d/deals/?sortBy=priceUp&visibleDatas=4376%3ALOQ%2CLegion%2CIdeaPad%2CYoga&cid=in:sem:ndop2c&msclkid=9d036e69a0141a7b2d8708c381b62a8c&utm_source=bing&utm_medium=cpc&utm_campaign=CN~ECOMM_CONS_PUB_MTM_BING_TEXT_BR_EXACT_CCFNET_IN-AN~ECOMM-SB~CONS-SC~PUB-YR~NONE-MK~IN-AG~8651&utm_term=lenovo%20official%20website&utm_content=Core%20Brand">Lenovo</a>
+      <a class="button" href="https://in.msi.com/">MSI</a>
+    </div>
+    <!--The thing to know before selectig a laptop-->
+    <h1 class="head7">Essential Factors to Consider Before Choosing Your Laptop</h1>
+    <ol class="selecting_laptop">
+      <li>
+        <strong>Purpose and Usage:</strong> 
+        <ul>
+          <li>Determine what you'll primarily use the laptop for (e.g., gaming, business, education, creative work, general use).</li>
+          <li>Consider the software and applications you need to run.</li>
+        </ul>
+      </li>
+      <li>  
+        <strong>Budget:</strong>
+        <ul>
+          <li>Set a budget range, keeping in mind that higher specs and features generally come at a higher cost.</li>
+          <li>Factor in additional costs for accessories, software, and warranties.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Operating System:</strong>
+        <ul>
+          <li>Decide on the operating system you prefer: Windows, macOS, Linux, or Chrome OS.</li>
+          <li>Consider compatibility with the software and peripherals you use.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Performance Specifications:</strong>
+        <ul>
+          <li>Processor (CPU): Choose a suitable processor based on your performance needs (e.g., Intel Core, AMD Ryzen).</li>
+          <li>RAM: Ensure you have enough RAM for multitasking and smooth performance (typically 8GB or more).</li>
+          <li>Storage: Decide between SSD (faster, more expensive) and HDD (more storage, less expensive). Consider the storage capacity you need.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Graphics:</strong>
+        <ul>
+          <li>For gaming, video editing, or graphic design, consider a dedicated graphics card (GPU).</li>
+          <li>For general use, integrated graphics may suffice.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Display:</strong> 
+        <ul>
+          <li>Screen size and resolution: Consider the size (typically 13" to 17") and resolution (Full HD, 4K) that suits your needs.</li>
+          <li>Screen type: Think about whether you need a touchscreen, high refresh rate, or color accuracy.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Battery Life:</strong>
+        <ul>
+          <li>Check the battery life based on your usage needs, especially if you plan to use the laptop on the go.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Build Quality and Portability:</strong>
+        <ul>
+          <li>Look at the build quality, weight, and thickness, especially if you need a durable and portable device.</li>
+          <li>Consider features like a backlit keyboard, quality trackpad, and hinge durability.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Connectivity and Ports:</strong>
+        <ul>
+          <li>Ensure the laptop has the necessary ports (USB, HDMI, SD card reader, etc.) and connectivity options (Wi-Fi, Bluetooth).</li>
+          <li>Check for future-proof features like USB-C or Thunderbolt.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Keyboard and Trackpad:</strong>
+        <ul>
+          <li>Test the keyboard and trackpad for comfort and responsiveness, especially if you'll be typing a lot.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Audio and Camera Quality:</strong>
+        <ul>
+          <li>Consider the quality of the speakers and the webcam, especially if you plan on video conferencing.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Warranty and Support:</strong>
+        <ul>
+          <li>Check the warranty period and the availability of customer support services.</li>
+          <li>Consider extended warranty options or protection plans.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Reviews and Recommendations:</strong>
+        <ul>
+          <li>Read user reviews and expert reviews to gauge the performance and reliability of the laptop.</li>
+          <li>Look for any common issues or complaints.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Upgradeability and Future-Proofing:</strong>
+        <ul>
+          <li>Consider whether the laptop can be upgraded (e.g., adding more RAM or storage).</li>
+          <li>Think about how long you expect the laptop to meet your needs as technology evolves.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Brand Reputation and After-Sales Service:</strong>
+        <ul>
+          <li>Research the brand's reputation for quality and customer service.</li>
+          <li>Consider the availability of service centers or repair services.</li>
+        </ul>
+      </li>
+    </ol>
+    <!--Bloge or artical section-->
+    <section class="cards-wrapper">
+      <div class="card-grid-space">
+        <div class="num">01</div>
+        <a class="card" href="News.php" style="background-image: url(photoes/laptop3.webp); ">
+          <div>
+            <h1>Latest technology news</h1>
+            <p>Get the latest technology news and in-depth analysis from the expert
+              analysts at LapTopia</p>
+            <div class="date">6 Oct 2024</div>
+            <div class="tags">
+              <div class="tag">News</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <div class="num">02</div>
+        <a class="card" href="Review.php" style="background-image: url(photoes/laptop19.jpeg); ">
+          <div>
+            <h1>User Reviews and Ratings</h1>
+            <p>Share Your Experience on LapTopia.Help others</p>
+            <div class="date">9 Oct 2024</div>
+            <div class="tags">
+              <div class="tag">Reviews</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <div class="num">03</div>
+        <a class="card" href="Services.html" style="background-image: url(photoes/laptop5.jpg); ">
+          <div>
+            <h1>Top-Tier Laptop Sales and Dedicated Service Assistance.</h1>
+            <p>We Provide The Complete Details Of Laptops According to Your Need</p>
+            <div class="date">14 Oct 2024</div>
+            <div class="tags">
+              <div class="tag">Service</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!--feedback section-->
+    <h1 class="head8">Our Noteworthy Profiles</h1>
+    <div class="slider-wrap">
+      <div id="card-slider" class="slider">
+        <div class="slider-item">
+          <div class="animation-card_image">
+            <img src="photoes/bill_gates.jpeg" alt="Bill Gates">
+          </div>
+          <div class="animation-card_content">
+            <h4 class="animation-card_content_title title-2">Bill Gates</h4>
+            <p class="animation-card_content_description p-2">At LapTopia, we bring you the latest and greatest laptops tailored to your needs. </p>
+            <p class="animation-card_content_city">Canada</p>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="animation-card_image">
+            <img src="photoes/linux_torvalds.jpg" alt="Linus Torvalds">
+          </div>
+          <div class="animation-card_content">
+            <h4 class="animation-card_content_title title-2">Linus Torvalds</h4>
+            <p class="animation-card_content_description p-2">LapTopia is a fantastic resource for anyone in the IT field, offering a wide array of laptops that cater to different technical needs.</p>
+            <p class="animation-card_content_city">America</p>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="animation-card_image">
+            <img src="photoes/stefe_jokes.jpeg" alt="Steve Jobs">
+          </div>
+          <div class="animation-card_content">
+            <h4 class="animation-card_content_title title-2">Steve Jobs</h4>
+            <p class="animation-card_content_description p-2">At LapTopia, simplicity meets functionality. We've streamlined the process of finding the perfect laptop, offering a curated selection categorized by use-case scenarios. </p>
+            <p class="animation-card_content_city">newzland</p>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="animation-card_image">
+            <img src="photoes/Tim Berners-Lee.webp" alt="Tim Berners-Lee">
+          </div>
+          <div class="animation-card_content">
+            <h4 class="animation-card_content_title title-2">Tim Berners-Lee</h4>
+            <p class="animation-card_content_description p-2">LapTopia is an invaluable resource for IT professionals and tech enthusiasts alike. The platform offers a comprehensive selection of laptops, meticulously categorized by functionality</p>
+            <p class="animation-card_content_city">France</p>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="animation-card_image">
+            <img src="photoes/Grace Hopper.webp" alt="Grace Hopper">
+          </div>
+          <div class="animation-card_content">
+            <h4 class="animation-card_content_title title-2">Grace Hopper</h4>
+            <p class="animation-card_content_description p-2">LapTopia stands as a guiding star for anyone navigating the complex landscape of laptop choices. By categorizing laptops based on their functionality.</p>
+            <p class="animation-card_content_city">Italy</p>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <!-- Enquiry Form -->                                                 
+    <div class="enquiry">
+      <br>
+      <h1 class="enquiry-title">
+        <center>
+          <b><big>Create Your Account </big></b>
+        </center>
+      </h1>
+      <br><br>
+      <form id="contactForm" action="home_contactForm.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address :</label>
+            <textarea id="address" name="address" placeholder="Your address.." style="height:200px" autocomplete="off" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="country">Country :</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number :</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" maxlength="10" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="abcd@gmail.com" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="user_photo">User Photo:</label>
+            <input type="file" id="user_photo" name="user_photo" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="feedback">Feedback :</label>
+            <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px" autocomplete="off"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    
+    </div>
+    <!--footer-->
+    <div class="down-footer">
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item">
+            <a
+              class="social-icon__link"
+              href="https://www.facebook.com/"
+              
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li class="social-icon__item">
+            <a
+              class="social-icon__link"
+              href="https://twitter.com/?lang=en-in"
+              
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li class="social-icon__item">
+            <a
+              class="social-icon__link"
+              href="https://in.linkedin.com/"
+              
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li class="social-icon__item">
+            <a
+              class="social-icon__link"
+              href="https://www.instagram.com/?hl=en"
+              
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="home.html" >Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="home.html" >Laptops</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Cart.html" 
+              >Cart Section</a
+            >
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="News.php" >News</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Review.php" >Review</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Services.html" 
+              >Services</a
+            >
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="About.html" >About us</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Contact.html" 
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <p>&copy;2024 LapTopia | All Rights Reserved</p>
+      </footer>
+    </div>
+    <!--popup for user subscription-->
+    <div class="login-popup">
+      <div class="box">
+        <div class="form">
+          <div class="close">&times;</div>
+          <h2 style="font-family: Arial, sans-serif; color: #410465; text-align: center; font-size: 24px; margin-bottom: 20px;">
+              <b>Subscribe to Our Newsletter and Stay Updated!</b>
+          </h2>
+          <form action="subcription_popup_insertion.php" method="post">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label><input type="checkbox" />Remember Me</label>
+            </div>
+            <button type="submit" class="btn" value="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <script src="home.js"></script>
+  </body>
+</html>
