@@ -301,7 +301,7 @@ header {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%233586ff' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%233586ff' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
   background-size: 1000px 100px;
 }
 
